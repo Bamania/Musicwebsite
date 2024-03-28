@@ -1,5 +1,10 @@
 import  FeaturedCourses  from "@/components/FeaturedCourses";
 import Herosection from "@/components/Herosection";
+import ScrollSec from "@/components/ScrollSec";
+import Teacher from "@/components/Teacher";
+import Webinar from "@/components/Webinar";
+import Footer from "@/components/footer";
+import MusicSchoolTestimonials from "@/components/tesimonials";
 
 
 export default function Home() {
@@ -8,8 +13,11 @@ export default function Home() {
 
   <Herosection/>
   <FeaturedCourses/>
-  <h1>hello there this is from page.tsx</h1>
-
+  <ScrollSec/>
+ <MusicSchoolTestimonials/>
+ <Webinar/>
+ <Teacher/>
+ <Footer/>
  </div>
   );
 }
